@@ -1,0 +1,412 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Titillium Web', sans-serif; 
+
+}
+
+.clear {
+	clear: both;
+}
+
+.heroSection {
+	width: 100%;
+	height: auto;
+	background: #87509c;
+	padding-bottom: 146px;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1140px;
+	margin: 0px auto;
+}
+
+nav {
+	padding: 60px 63px 135px 45px;
+}
+
+.heroSection .menu {
+	float: right;
+}
+
+.heroSection .menu ul {
+	list-style-type: none;
+
+}
+
+.heroSection .menu ul li {
+	display: inline-block;
+}
+
+.heroSection .menu ul li a {
+	color: #fff;
+	margin-left: 44px;
+	text-decoration: none;
+	font-size: 16px;
+}
+.heroSection .menu ul li a:hover{
+	text-decoration: underline;
+}
+
+
+.heroSection .content {
+	text-align: center;
+}
+
+.heroSection .desc {
+	padding-bottom: 60px;
+	font-size: 42.16px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.heroSection .workLink {
+	display: inline-block;
+	width: 297px;
+	height: 72px;
+	color: #fff;
+	text-decoration: none;
+	background: #eb7d4b;
+	line-height: 72px;
+	font-size: 18px;
+	border-radius: 5px;
+	transition-duration: 1s;
+
+
+}
+.heroSection .workLink:hover {
+	background: #79d0ee;
+	transition-duration: 1s;
+}
+
+.services {
+	background: #17c2a4;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 123px;
+	box-sizing: border-box;
+	padding-top: 122px;
+}
+.services h2,
+.team h2
+{
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 48px;
+}
+.services .serDesc{
+	width:620px;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-bottom: 80px;
+	box-sizing: border-box;
+}
+.services .grid, 
+.team .grid{
+	width:25%;
+	float: left;
+}
+.services .grid img,
+.team .grid img{
+	display: block;
+	margin: 0 auto;
+}
+
+.services .grid span{
+	font-weight: bold;
+	font-size: 24px;
+}
+.services .grid p{
+	font-size: 16px;
+margin: 60px  40px 0px 40px;;
+}
+
+
+.team{
+	background: #e7f1f8;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 122px;
+
+	padding-bottom: 123px;
+	box-sizing: border-box;
+}
+.team h2{
+	color:#3c4761;
+}
+.team .teamIntro{
+	font-size: 19px;
+	padding-bottom: 65px;
+	color: #808b9d;
+	box-sizing: border-box;
+}
+.team .name{
+	color: #27283d;
+	font-weight: bold;
+	font-size:24px;
+	margin-bottom: 0;
+	box-sizing: border-box;
+	
+}
+
+.team .pos{
+	color: #30bae7;
+	font-size: 16px;
+	margin: 0;
+}
+.team .posDesc{
+	margin: 30px 40px 0 40px;
+	font-size: 16px;
+	color: #3c4761;
+}
+
+
+.team .grid img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: grey;
+	}
+.team .social{
+	margin-top: 30px;
+}
+
+.social .icon{
+	font-size: 18px;
+	color: #fff;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 36px;
+	display: inline-block;
+	background: #bdd1df;
+	margin-left: 17px;
+}
+.porto {
+	background: #ffdd99;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #393939;
+	padding-bottom: 123px;
+	box-sizing: border-box;
+}
+.porto h3{
+	margin: 0;
+	color: #393939;
+	font-size: 40px;
+	font-weight: bold;
+
+	padding-top: 111px;
+}
+.porto p{
+	padding-bottom: 45px;
+}
+.porto .row:last-of-type {
+padding-bottom:85px;
+	box-sizing: border-box;
+}
+.porto .grid2{
+	float: left;
+	width: 50%;
+}
+.porto .portoDesc{
+   color: #534f46;
+	margin: 0;
+	padding-top: 44px;
+	padding-bottom: 80px;
+}
+.porto .loadLink{
+	display: inline-block;
+	width: 300px;
+	height: 75px;
+	font-size: 18px;
+	color: #fff;
+	background: #17c2a4;
+	text-decoration: none;
+	line-height: 75px;
+	border-radius: 3px;
+	transition: 1s;
+}
+.porto .loadLink:hover{
+	background: #7cce7c;
+	transition: 1s;
+}
+	
+.testi {
+	background: #d74680;
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: #fff;
+	padding-bottom: 130px;
+	box-sizing: border-box;
+}
+
+.testi h3{
+	margin: 0px;
+	padding-top: 115px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.testi .testiDesc{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 68px;
+}
+.testi .gridTesti{
+	width:50%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+.testi .row{
+		margin-bottom: 160px;
+}
+.testi .row:last-of-type{
+	margin-bottom: 0;
+}
+.testi .opinion{
+    font-style: italic;
+	font-size: 21px;
+	margin-top: 0;
+
+
+}
+.testi .nameTesti{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.testi .posTesti{
+	color: #ffdd99;
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.testi .gridTesti .gridImg{
+	width: 140px;
+	float: left;
+	
+}
+.testi .gridTesti .gridImg img{
+    width:100px;
+	height: 105px;
+    border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	background: grey;
+}
+.testi .gridTesti .gridCont{
+	float: right;
+
+	width: calc(100% - 140px);
+}
+
+.contact{
+	width: 100%;
+	background: #3c5499;
+	text-align: center;
+	padding-bottom: 118px;
+	padding-top: 118px;
+	color: #fff;
+}
+.contact h2{
+	margin: 0px;
+	font-size: 40px;
+}
+.contact .contactDesc{
+	margin: 0px;
+	font-size: 18px;
+	padding-top: 47px;
+	padding-bottom: 80px;
+	box-sizing: border-box;
+}
+.contact .upper{
+	margin: 0 auto;
+}
+.contact .formName{
+	width: 421px;
+	height: 55px;
+	background: #273a71;
+	padding: 15px;
+    border:0px;	
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.contact .leftmar{
+	margin-left: 25px;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+	font-size: 18px;
+		font-family: 'Titillium Web', sans-serif; 
+
+
+}
+
+.contact textarea{
+   width:866px;
+	height:200px;
+	background: #273a71;
+	padding: 15px;
+    border:0px;
+	border-radius: 5px;
+	 margin: 28px auto 0 auto;
+	box-sizing: border-box;
+
+}
+.contact .send{
+	padding: 20px 40px;
+	background: #30bae7;
+	color: #fff;
+	font-size: 18px;
+	border: 0;
+	margin-top: 58px;
+	border-radius: 5px;
+	transition-duration: 1s;
+	
+}
+.contact .send:hover{
+	background: #e8d331;
+	transition-duration: 1s;
+}
+.tail{
+	width:100%;
+	height: 110px;
+	background: #344b8e;
+	text-align: center;
+
+}
+.tail .tailList{
+	list-style-type: none;
+	margin: 0;
+}
+.tail .tailList li{
+	display:inline-block;
+}
+.tail .tailList li a{
+	color: #fff;
+	text-decoration: none;
+	line-height: 110px;
+	font-size: 24px;
+	margin: 0 26px;
+
+}
+.tail .tailList li a:hover{
+
+color:#30bae7;
+}
+
